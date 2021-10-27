@@ -1,6 +1,6 @@
 # RF-Pathloss-Predictor
 
-# The prediction model
+## The prediction model
 Estimating a path loss can be solved by machine learning techniques to overcome challenging issues such as complexity and time consuming due to the required tremendous measurements.Path loss prediction models are used to estimate the coverage area of a given transmitter.The model was developed using python and machine learning concepts. Here, we have used both linear regression and KNN algorithm to develop our model. Both algorithms are prediction algorithms used in machine learning. 
 Linear regression
 Linear regression is a statistical method for studying relationships between an independent variable X and Y dependent variable. It is mathematical modeling which allows you to make predictions for the value of Y depending on the different values of X.
@@ -9,7 +9,7 @@ Example of simple linear regression
 The first prediction model was created using the Multiple linear regression in linear regression. Multiple linear regression is a case of linear regression with two or more independent variables. Here Y is the dependent response which is the path loss, X is the independent variable which is in our case distance and frequency.
 
 
-# K - Nearest Neighbor regression 
+## K - Nearest Neighbor regression 
 K Nearest Neighbor is one of the fundamental algorithms in machine learning. KNN is one of the simplest forms of machine learning algorithms mostly used for classification and regression. It classifies the data point on how its neighbor is classified.K in KNN represents the number of the nearest neighbors we used to classify new data points.
 The second prediction model was created using the K Nearest Neighbor regression. KNN regression tries to predict the value of the output variable by using a local average.Here also Y is the dependent response which is the path loss, X is the independent variable which is in our case distance and frequency. 
 
@@ -21,9 +21,9 @@ A dataset with real data which has the real path loss after calculating it consi
 Mean absolute error (MAE) and Mean squared error (MSE) metrics are used to evaluate these prediction models  Here, the path loss real values from Y dependent variable and the path loss predicted values from X independent variables are used to test and generate the mean absolute error and the mean squared error to determine the accuracy of the models. 
 Flask is used to combine the python models and web frontend. It is a popular Python web framework that is used to communicate between the python models and the user via HTTP requests.
 
-Mean Absolute Error(MAE)
+## Mean Absolute Error(MAE)
 The mean absolute error is the average of the difference between the predicted values and the actual values.
 
-Mean Squared Error(MSE)
+## Mean Squared Error(MSE)
 The mean Squared error is the average of the squared differences between the predicted values and the actual values.
 
