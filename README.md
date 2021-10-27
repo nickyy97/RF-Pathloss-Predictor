@@ -2,7 +2,7 @@
 
 ## The prediction model
 Estimating a path loss can be solved by machine learning techniques to overcome challenging issues such as complexity and time consuming due to the required tremendous measurements.Path loss prediction models are used to estimate the coverage area of a given transmitter.The model was developed using python and machine learning concepts. Here, we have used both linear regression and KNN algorithm to develop our model. Both algorithms are prediction algorithms used in machine learning. 
-Linear regression
+## Linear regression
 Linear regression is a statistical method for studying relationships between an independent variable X and Y dependent variable. It is mathematical modeling which allows you to make predictions for the value of Y depending on the different values of X.
 
 Example of simple linear regression
