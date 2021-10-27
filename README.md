@@ -5,7 +5,7 @@ Estimating a path loss can be solved by machine learning techniques to overcome 
 ## Linear regression
 Linear regression is a statistical method for studying relationships between an independent variable X and Y dependent variable. It is mathematical modeling which allows you to make predictions for the value of Y depending on the different values of X.
 
-Example of simple linear regression
+### Example of simple linear regression
 The first prediction model was created using the Multiple linear regression in linear regression. Multiple linear regression is a case of linear regression with two or more independent variables. Here Y is the dependent response which is the path loss, X is the independent variable which is in our case distance and frequency.
 
 
@@ -13,7 +13,7 @@ The first prediction model was created using the Multiple linear regression in l
 K Nearest Neighbor is one of the fundamental algorithms in machine learning. KNN is one of the simplest forms of machine learning algorithms mostly used for classification and regression. It classifies the data point on how its neighbor is classified.K in KNN represents the number of the nearest neighbors we used to classify new data points.
 The second prediction model was created using the K Nearest Neighbor regression. KNN regression tries to predict the value of the output variable by using a local average.Here also Y is the dependent response which is the path loss, X is the independent variable which is in our case distance and frequency. 
 
-Example of simple K - Nearest Neighbor regression
+### Example of simple K - Nearest Neighbor regression
 Suppose the prediction point is x.  In the prediction model the number of neighbors needs to be defined and in this case it is 3. The KNN algorithm starts by calculating the distance of point X from all the points. It then finds the 3 nearest points with least distance to point X. Then the average of the values is taken to be the final prediction of the prediction point that input.
 
 
